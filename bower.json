@@ -1,0 +1,13 @@
+{
+  "name": "pileple-skeleton",
+  "version": "0.0.1",
+  "main": [
+    "dist/vendors.js",
+    "dist/app.js",
+    "dist/style.css",
+    "dist/locales/en/translation.json",
+    "dist/locales/fr/translation.json"
+  ],
+  "dependencies": {
+  }
+}

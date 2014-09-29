@@ -1,0 +1,16 @@
+{
+  "general": {
+    "add": "Ajouter",
+    "delete": "Supprimer"
+  },
+  "todos": {
+    "title": "Todos !",
+    "add": {
+      "placeholder": "Tâche..."
+    },
+    "list": {
+      "title": "Mes tâches :",
+      "empty": "La liste est vide  !"
+    }
+  }
+}

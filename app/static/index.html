@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Twitter Bootstrap 2.3.2 -->
+    <!-- jQuery 1.11.1 -->
+    <!-- Font Awesome 4.2.0 -->
+    <title>Work in progress...</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="style.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div id="pileple-skeleton"></div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="vendors.js"></script>
+    <script src="app.js"></script>
+    <script type="text/javascript">
+      var pilepleSkeleton = require('pilepleSkeleton');
+      window.PilepleSkeleton = pilepleSkeleton;
+      $(document).ready(function() {
+        PilepleSkeleton.start({
+          lang: 'fr',
+          libPath: './'
+        });
+      });
+    </script>
+  </body>
+</html>
