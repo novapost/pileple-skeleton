@@ -1,4 +1,4 @@
-# Pileple Skeleton
+# Pileple Skeleton :skull:
 
 Skeleton based on Pileple stack!!!
 
