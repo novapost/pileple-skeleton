@@ -131,3 +131,24 @@ Some usefull links:
 ### i18n
 
 We use the i18next library for the internationalization: https://github.com/i18next/i18next
+
+
+## How to integrate :v:
+
+In your website, you can include this code.
+The alias name `pilepleSkeleton` is generated thanks to the field `name` inside  `package.json`.
+
+```javascript
+<script src="vendors.js"></script>
+<script src="app.js"></script>
+<script type="text/javascript">
+  var pilepleSkeleton = require('pilepleSkeleton');
+  window.PilepleSkeleton = pilepleSkeleton;
+  $(document).ready(function() {
+    PilepleSkeleton.start({
+      lang: 'fr',
+      libPath: './'
+    });
+  });
+</script>
+```
