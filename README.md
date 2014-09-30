@@ -1,4 +1,4 @@
-# pileple-skeleton
+# Pileple Skeleton
 
 Skeleton based on Pileple stack!!!
 
@@ -49,7 +49,7 @@ Folder tree:
 - `.tmp/`: The temporary directory for development or temporary building file
 
 The environment is based around the tool `grunt`.
-All the configuration is inside `Gruntfile.js`
+All the configuration is inside `Gruntfile.js`.
 Grunt Works with rules, it is a tool similar to make but oriented JavaScript environment.
 We can separate the grunt rules of this project into three parts:
 
@@ -87,7 +87,7 @@ The default rule ```grunt``` launches test and build.
 ## How to build
 
 ```shell
-(user) grunt build
+(user) grunt
 ```
 
 
@@ -98,3 +98,36 @@ Run grunt with compilation on-the-fly:
 ```shell
 (user) grunt serve
 ```
+
+
+### Backbone and Marionette
+
+- BackboneJS: http://backbonejs.org/
+- UnderscoreJS: http://underscorejs.org/
+- Marionette: http://marionettejs.com/
+
+
+### Template
+
+We use Jade template with Handlebars syntax inside.
+That's why the compilation is done in two time:
+
+- Jade compilation into simple HTML with Handlebars
+- Handlebars compilation into JST.
+
+
+Some usefull links:
+
+- HTML to Jade converter : http://html2jade.org/
+- Jade-Lang: http://jade-lang.com/
+- Handlebars: http://handlebarsjs.com/
+
+
+### LESS Style
+
+- LESS: http://lesscss.org/
+
+
+### i18n
+
+We use the i18next library for the internationalization: https://github.com/i18next/i18next
