@@ -130,9 +130,7 @@ module.exports = function(grunt) {
           transform: ['hbsfy'],
           external: [
             'pileple',
-            'moment',
-            'hbsfy',
-            'jquery.cookie'
+            'hbsfy'
           ],
           alias: ['./<%= cfg.tmp %>/js/app.js:<%= grunt.util._.camelize(pkg.name) %>']
         }
@@ -145,9 +143,7 @@ module.exports = function(grunt) {
           transform: ['hbsfy'],
           external: [
             'pileple',
-            'moment',
-            'hbsfy',
-            'jquery.cookie'
+            'hbsfy'
           ],
           alias: ['./<%= cfg.tmp %>/js/app.js:<%= grunt.util._.camelize(pkg.name) %>'],
           browserifyOptions: {
@@ -161,9 +157,7 @@ module.exports = function(grunt) {
         options: {
           require: [
             'pileple',
-            'moment',
-            'hbsfy',
-            'jquery.cookie'
+            'hbsfy'
           ]
         }
       }
