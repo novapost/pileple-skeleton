@@ -1,6 +1,6 @@
 # Pileple Skeleton :skull:
 
-Skeleton based on Pileple stack!!!
+Skeleton based on Pileple (https://github.com/novapost/Pileple) stack!!!
 
 
 ## Dependencies
@@ -99,11 +99,13 @@ Run grunt with compilation on-the-fly:
 ```
 
 
-### Backbone and Marionette
+### Backbone and more
 
 - BackboneJS: http://backbonejs.org/
 - UnderscoreJS: http://underscorejs.org/
 - Marionette: http://marionettejs.com/
+- Backbone Relational: http://backbonerelational.org/
+- jQuery: https://jquery.com/
 
 
 ### Template
@@ -127,9 +129,9 @@ Some usefull links:
 - LESS: http://lesscss.org/
 
 
-### i18n
+### Internationalization (i18n)
 
-We use the i18next library for the internationalization: https://github.com/i18next/i18next
+- i18next: http://i18next.com/
 
 
 ## How to integrate :v:
