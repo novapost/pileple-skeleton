@@ -112,7 +112,7 @@ Run grunt with compilation on-the-fly:
 We use Jade template with Handlebars syntax inside.
 That's why the compilation is done in two time:
 
-- Jade compilation into simple HTML with Handlebars
+- Jade compilation into simple HTML with Handlebars.
 - Handlebars compilation into JST.
 
 
@@ -138,7 +138,7 @@ We use the i18next library for the internationalization: https://github.com/i18n
 In your website, you can include this code.
 The alias name `pilepleSkeleton` is generated thanks to the field `name` inside  `package.json`.
 
-```javascript
+```html
 <script src="vendors.js"></script>
 <script src="app.js"></script>
 <script type="text/javascript">
