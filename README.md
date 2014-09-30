@@ -32,8 +32,7 @@ When `npm` is installed:
 
 It's a plug-in for your browser which auto-reload when grunt successfully compile something on-the-fly:
 
-- Firefox: https://addons.mozilla.org/fr/firefox/addon/livereload/
-- Chrome: https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei
+http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-
 
 
 ## What is the environment?
@@ -59,6 +58,11 @@ We can separate the grunt rules of this project into three parts:
   2. :soon: Unit Tests...
 
 
+- Build: ```grunt build```
+
+  Build the application with everything compress into `dist` directory.
+
+
 - Development: ```grunt serve```
 
   1. Build the application on debug mode with static file (demo website) into `.tmp` directory.
@@ -66,11 +70,6 @@ We can separate the grunt rules of this project into three parts:
   2. Start the server with livereload and open your browser.
 
   3. Watch for modification in the application, style, locales or static files and rebuilt what is necessary.
-
-
-- Build: ```grunt build```
-
-  Build the application with everything compress into `dist` directory.
 
 
 The default rule ```grunt``` launches test and build.
