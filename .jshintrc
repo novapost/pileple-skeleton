@@ -30,5 +30,10 @@
   "funcscope": false,
   "globalstrict": false,
   "lastsemic": false,
-  "loopfunc": false
+  "loopfunc": false,
+
+  "globals": {
+    "$": false,
+    "jquery": false
+  }
 }
