@@ -8,6 +8,7 @@
   "forin": false,
   "immed": true,
   "indent": 2,
+  "jquery": true,
   "latedef": true,
   "laxbreak": false,
   "newcap": true,
@@ -30,10 +31,5 @@
   "funcscope": false,
   "globalstrict": false,
   "lastsemic": false,
-  "loopfunc": false,
-
-  "globals": {
-    "$": false,
-    "jQuery": false
-  }
+  "loopfunc": false
 }
