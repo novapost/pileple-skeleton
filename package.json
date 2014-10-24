@@ -32,5 +32,6 @@
   "dependencies": {
     "pileple": "~0.3.0",
     "hbsfy": "^2.1.0"
-  }
+  },
+    "license": "MIT"
 }

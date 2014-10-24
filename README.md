@@ -153,3 +153,9 @@ The alias name `pilepleSkeleton` is generated thanks to the field `name` inside 
   });
 </script>
 ```
+
+## License
+
+MIT
+
+See the LICENSE file for full text
