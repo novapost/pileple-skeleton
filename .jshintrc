@@ -8,6 +8,7 @@
   "forin": false,
   "immed": true,
   "indent": 2,
+  "jquery": true,
   "latedef": true,
   "laxbreak": false,
   "newcap": true,
