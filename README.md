@@ -158,4 +158,4 @@ The alias name `pilepleSkeleton` is generated thanks to the field `name` inside 
 
 MIT
 
-See the LICENSE file fur full text
+See the LICENSE file for full text
